@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&family=Poppins:wght@300;400;500;600;700&family=Vesper+Libre&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarColor {
+    background-color: #1585ee;
+    padding: 20px;    
+}
+
+.avatar{
+    width: 6%;
+    filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
+    border-radius: 50%;
+   }
+
+.liens{
+    color:white !important;
+    text-align:end;
+    text-decoration: ;
+}
