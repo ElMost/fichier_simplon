@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Vesper Libre', serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
@@ -35,6 +35,12 @@ body {
     width: 6%;
     filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
     border-radius: 50%;
+}
+
+button {
+    background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
 }
 
 .liens {
