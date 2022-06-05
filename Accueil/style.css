@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Vesper Libre', serif;
-    font-size: 18px;
+    font-size: 19px;
     margin: 0;
     padding: 0;
     background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
@@ -28,7 +28,8 @@ body {
 
 .navbarColor {
     background-color: #1585ee;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .avatar {
@@ -40,7 +41,10 @@ body {
 .liens {
     color: white !important;
     text-align: end;
-    text-decoration: ;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
 }
 
 .home_container {
@@ -55,7 +59,6 @@ body {
     padding: 20px;
     text-align: center;
     filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
-    */
 }
 
 .home_name {
@@ -71,17 +74,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+}
+
+.home_img > img{
+    width: 100%;
+}
+
+.container-lg {
+    width: 98%;
 }
 
 .row {
     border: solid 5px cornsilk;
     border-radius: 50px;
-    padding: 20px;
+   
 }
 
 .img-presentation {
     width: 70%;
+}
+
+section{
+    color:white;
 }
 
 .qui {
@@ -99,8 +113,8 @@ body {
 .flex {
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .date {
@@ -116,20 +130,45 @@ body {
 }
 
 
+.btnRight {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
+button {
+    background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+}
 
+.btn {
+    padding: 15px;
+    border-radius: 50px;
+}
 
+button a {
+    color: white;
+}
 
+.btn-primary {
+    font-size: larger;
+}
 
+.btn-primary :hover {
+    color: #33383b;
+}
 
+.btnRight>button {
+    margin-right: 15px !important;
+}
 
-
-
-
-
-
-
-
+.btn-primary>a {
+    text-decoration: none;
+}
 
 .footer-distributed {
     background-color: #1585ee;
@@ -197,8 +236,6 @@ body {
     transition: all .25s;
 }
 
-
-
 .footer-distributed .footer-right a:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -206,4 +243,16 @@ body {
 
 .footer-distributed p.footer-links a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 892px) {
+    .contain_elements {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-presentation {
+        display: none;
+    }
 }
