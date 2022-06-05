@@ -369,3 +369,32 @@ h5 {
 .footer-distributed p.footer-links a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 892px) {
+    .contain_elements {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-presentation {
+        display: none;
+    }
+
+    .avatar{
+        width: 20%;
+    }
+
+    .carte-conteneur{
+        width: 370px;
+        font-size: 15px;
+        padding: 0px 3px;
+    }
+
+    .carte-conteneur h4{
+        font-size: small;
+    }
+    
+}
+
+
