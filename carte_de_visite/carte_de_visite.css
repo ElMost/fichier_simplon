@@ -73,6 +73,45 @@ body{
     width: 100%;
 }
 
+.carte-conteneur:hover .carte{
+    cursor: pointer;
+    transform: rotateY(180deg);
+    height: 100%;
+}
+
+.carte{
+
+    /*width: 550px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.91);*/
+    transform-style:preserve-3d ;
+    position: relative;
+    box-shadow: 0 15px 60px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    transition: transform 1s;
+    /* taille de carte*/
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+    height: 100%;
+}
+
+.card-front{
+    display: flex;
+    background: linear-gradient(
+         100deg ,rgba(237, 204, 204, 0.813) 
+         40%,rgba(109, 193, 231, 0.965) 0); 
+}
+
+.gauche {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 
@@ -89,8 +128,6 @@ body{
     text-align: left;
     font: normal 16px sans-serif;
     padding: 20px 20px;
-    position: absolute;
-    bottom: 0;
   }
 
   .footer-distributed .footer-left p {
