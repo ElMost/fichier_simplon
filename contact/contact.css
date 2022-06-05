@@ -25,6 +25,39 @@ body{
     text-decoration: ;
 }
 
+.home_container {
+    width: 93%;
+    margin: 20px auto;
+}
+
+.contain_elements {
+    display: flex;
+    border: solid 5px cornsilk;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
+}
+
+.home_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+.home_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_img > img{
+    width: 100%;
+}
+
 
 
 
