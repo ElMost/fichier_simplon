@@ -161,7 +161,7 @@ body {
 .droite-contenu i {
     width: 35px;
     height: 35px;
-    border: 2px solide #fff;
+    border: solid 2px #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
