@@ -251,8 +251,17 @@ button a {
     }
 }
 
+
+.liens{
+    color:white !important;
+    text-align:end;
+    text-decoration: ;
+}
+
+
 @media (max-width: 576px) {
     .img-presentation {
         display: none;
     }
 }
+
