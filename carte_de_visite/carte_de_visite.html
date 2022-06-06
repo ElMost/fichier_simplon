@@ -1,43 +1,187 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/dad99ebda6.js" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/Carte_de_visite/carte_de_visite.css" />
-        <title>Ma présentation</title>
-    </head>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dad99ebda6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Carte_de_visite/carte_de_visite.css" />
+    <title>Ma présentation</title>
+</head>
+
 <body>
+
+
 
     <header>
         <nav class="navbar navbar-expand-lg  navbarColor">
             <div class="container-fluid">
                 <img class="avatar" src="/images/mon-avatar.webp" alt="avatar">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse  " id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active liens"   aria-current="page" href="/Accueil/index.html">Accueil</a>
+
+                            <a class="nav-link liens" href="/Accueil/index.html">Accueil</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link liens" href="/Carte_de_visite/carte_de_visite.html">Carte de visite</a>
+                            <a class="nav-link liens" href="/Carte_de_visite/carte_de_visite.html">Carte de
+                                visite</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link liens" href="/Contact/contact.html">Contact</a>
                         </li>
-                        
+
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
+
+    <div id="main">
+
+        <div class="home_container">
+            <div class="contain_elements">
+                <div class="home_name">
+                    <h1>El Mostafa NASRI</h1>
+                    <p> Développeur Web</p>
+                    <p> Formation Ecole Simplon </p>
+                </div>
+                <div class="home_img">
+                    <img src="/images/desk-removebg-preview-removebg-preview.png" alt="preview" />
+                </div>
+            </div>
+        </div>
+
+        <div class="carte-conteneur">
+            <div class="carte">
+
+                <section class="card-front">
+                    <div class="gauche">
+                        <img src="/images/desk-removebg-preview-removebg-preview.png" alt="image" width="150" />
+                        <h4><span>Web</span>Developer</h4>
+                    </div>
+                    <div class="droite">
+                        <div class="person droite-contenu">
+                            <i class="fas fa-user-tie"></i>
+
+                            <h4> EL MOSTAFA NASRI</h4>
+
+                        </div>
+                        <div class="telephone droite-contenu">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p>+33.06.11.02.12.26</p>
+                            </div>
+                        </div>
+                        <div class="email droite-contenu">
+                            <i class="fas fa-envelope-open"></i>
+                            <div>
+                                <p>elmost777@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="adress droite-contenu">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p>Ecole Simplon Paris, France</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card-back">
+                    <div class="conteneur-back">
+                        <div class="conteneur-avatar">
+                            <img class="avatar" src='/images/mon-avatar.webp' alt="avatar" />
+                            <h4 class="nom">El Mostafa NASRI</h4>
+                            <div class="conteneur-social">
+                                <div class="social">
+                                    <ul class="social-ul">
+                                        <li>
+                                            <a href="https://elmost.github.io/fichier_simplon/" title="lien vers github"
+                                                target="_blank" rel="noopener">
+                                                <i class="fa fa-github fa-2xs "></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=" https://fr.linkedin.com/" title="linkedin" target="_blank"
+                                                rel="noopener">
+                                                <i class="fa fa-linkedin fa-2xs"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/?lang=fr" title="twitter" target="_blank"
+                                                rel="noopener">
+                                                <i class="fa fa-twitter fa-2xs"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conteneur-description">
+                            <div class="person droite-contenu">
+                                <i class="fas fa-address-card fa-2x iconMotivation"></i>
+                                <h3 class="motivations"> Motivations</h3>
+                            </div>
+                            <ul class="conteneur-motivation">
+                                <li>
+                                    <p>Epanouissement personnel et professionnel</p>
+                                </li>
+                                <li>
+                                    <p> Possibilité d'obtenir une promotion</p>
+                                </li>
+                                <li>
+                                    <p> Intérêt pour le monde du développement web</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+            <a href="https://twitter.com/?lang=fr"><i class="fa fa-twitter"></i></a>
+            <a href="https://fr.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/ElMost"><i class="fa fa-github"></i></a>
+
+        </div>
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+
+                <a href="/Contact/contact.html">Contact</a>
+            </p>
+
+            <p class="copy">Ecole Simplon &copy; 2022</p>
+        </div>
+    </footer>
+
+
 </body>
+
+
 </html>
